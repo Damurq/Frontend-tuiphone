@@ -1,0 +1,144 @@
+
+.logo-header{
+    height: 3.2rem;
+}
+header{
+    background-color: #053769;
+}
+.navbar-dark {
+    padding-top: .2rem;
+}
+.fa-shopping-cart {
+    color: rgb(227, 234, 252) !important;
+    font-size: 1.8rem;
+    justify-content: end;
+}
+.container-fluid ul li a{
+    display: flex;
+    justify-content: center;
+    color: rgb(227, 234, 252) !important;
+    transition: all .7s;
+}
+.container-fluid ul li a:hover{
+    background-color: rgb(227, 234, 252);
+    color: #053769!important;
+    font-size: 1.09rem;
+    font-weight: bold;
+}
+.container-fluid ul li{
+    padding-top: .6rem;
+}
+
+.navbar > .containerp, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    justify-content: space-between;
+}
+.push-right {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.navbar-dark .navbar-toggler{
+    color: rgb(227 234 252);
+    border-color: rgb(227 234 252 / 0%);
+}
+.navbar-toggler .fa-bars{
+    font-size: 2rem;
+}s
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgb(227, 234, 252);
+    color: #053769!important;
+}
+.container-fluid h5{
+    color:rgb(227, 234, 252)!important;
+}
+header .containerp{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.productos .flex-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.container-fluid  .flex-item{
+    max-width: 395px;
+    max-height: 630px;
+}
+.productos .container-fluid{
+    background-color: #2a84dd;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card-text{
+    font-size: .75rem;
+}
+.card-body .btn-primary:hover{
+    color: #053769!important;
+    background-color: #73b5f7;
+}
+.card-body .btn-primary {
+    color: rgb(227, 234, 252)!important;
+    background-color: #2a84dd;
+    transition: all .3s;
+    font-weight: bold;
+}
+.card-body .btn-primary:active {
+    color: #73b5f7!important;
+    background-color: #053769;
+}
+.card{
+    border-radius: 2.6rem;
+    background: black;
+    color: rgb(227, 234, 252)!important;
+}
+.card-img-top{
+    border-radius: 2.6rem;
+    background-color: rgba(51, 69, 114, 0.568);
+}
+.tab-list li a span {
+    padding: 0 .5rem;
+}
+.tab-list li a:hover span {
+    background-color: #2a84dd;
+}
+.tab-item {
+    display: none;
+}
+.tab-item.in {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab-list {
+    margin: auto;
+}
+
+
+
+
+
+.promociones .container-fluid  .flex-item{
+    min-width: 100%;
+    max-width: max-content;
+    max-height: max-content;
+}
+
+
+section{
+    background-color: #2a84dd;
+}
+
+
+
+footer{
+    min-height: 25vh;
+    width: 100%;
+    background-color: black;
+    font-size: 10vh;
+    color: rgb(255, 255, 255)!important;
+}
+

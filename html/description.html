@@ -68,8 +68,8 @@
                         </div>
                     </div>
                     <form class="needs-validation" novalidate>
-                        <label for="validationCustom04" class="description-content__label w-100 px-3 form-label">Color</label>
-                        <select class="description-content__options w-100 px-3 py-2 form-select" id="validationCustom04" required>
+                        <label for="color" class="description-content__label w-100 px-3 form-label">Color</label>
+                        <select class="description-content__options w-100 px-3 py-2 form-select" id="color" required>
                             <option value="Negro">Negro</option>
                             <option value="Azul">Azul</option>
                         </select>
@@ -84,8 +84,16 @@
                             <option value="Azul">2</option>
                         </select>
                         
-                        <label class="description-content__label w-50 px-3">Cantidad</label>
-                        <input class="form-control w-25 d-inline-block description-content__options" type="number" value="42" id="example-number-input">
+                        <label class="description-content__label w-50 ">Cantidad</label>
+                        <div class="description-content__quantity">
+                            <div class="description-content__quantity-selector bg-dark">
+                                <div id="aumentar" class="btn btn-secundary ">+</div>
+                                <input id="cantidad" class="w-25 d-inline-block description-content__options" type="number" value="42" id="example-number-input">
+                                <div id="disminuir" class="btn btn-secundary">-</div>
+                            </div>
+                        </div>
+
+
                         <a class="btn btn-secundary btn-block waves my-3"><i class="fas fa-cart-plus  pr-2"></i>Añadir al carrito</a>
                         <a class="btn btn-secundary btn-block waves"><i class="fas fa-cash-register  pr-2"></i>Comprar ahora</a>
                     </form>
@@ -148,6 +156,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <script src="../js/j2.js"></script>
+        <script src="../js/j1.js"></script>
+        
     </body>
 </html>

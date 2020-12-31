@@ -22,85 +22,34 @@
 </head>
 
 <body>
-    <section class="buy">
-        <div class="buy-content">
-            <div class="order px-4 pb-4">
-                <table class="cart-info__product-table">
-                    <caption class="visually-hidden">Carro de compras</caption>
-                    <thead class="product-table__header">
-                        <tr>
-                            <th scope="col"><span class="visually-hidden">Imagen del producto</span></th>
-                            <th scope="col"><span class="visually-hidden">Descripcion</span></th>
-                            <th scope="col"><span class="visually-hidden">Cantidad</span></th>
-                            <th scope="col"><span class="visually-hidden">Precio</span></th>
-                        </tr>
-                    </thead>
-                    <tbody class="product-table__body">
-                        <tr class="product my-5" data-product-id="4116632371266" data-variant-id="30187089788994"
-                            data-product-type="Furniture" data-customer-ready-visible="">
-                            <td class="product__image">
-                                <div class="product-thumbnail ">
-                                    <div class="product-thumbnail__wrapper">
-                                        <img class="product-thumbnail__image"
-                                            src="../images/inicio/producto/redmi-note-9.png" alt="redmi-note-9">
-                                    </div>
-                                    <span class="product-thumbnail__quantity" aria-hidden="true">3</span>
-                                </div>
-                            </td>
-                            <th class="product__description" scope="row">
-                                <span class="product__description__name order-summary__emphasis pl-3">AAC 153
-                                    Soft by
-                                    Hay</span>
-                                <span class="product__description__variant order-summary__small-text pl-3">Black
-                                    Aluminium / Group 1</span>
-                            </th>
-                            <td class="product__quantity">
-                                <span class="visually-hidden">
-                                    3
-                                </span>
-                            </td>
-                            <td class="product__price">
-                                <span class="order-summary__emphasis skeleton-while-loading">£1,917.00</span>
-                            </td>
-                        </tr>
-                        <tr class="product" data-product-id="4116632371266" data-variant-id="30187089788994"
-                            data-product-type="Furniture" data-customer-ready-visible="">
-                            <td class="product__image">
-                                <div class="product-thumbnail ">
-                                    <div class="product-thumbnail__wrapper">
-                                        <img class="product-thumbnail__image"
-                                            src="../images/inicio/producto/redmi-note-9.png" alt="redmi-note-9">
-                                    </div>
-                                    <span class="product-thumbnail__quantity" aria-hidden="true">3</span>
-                                </div>
-                            </td>
-                            <th class="product__description" scope="row">
-                                <span class="product__description__name order-summary__emphasis pl-3">AAC 153
-                                    Soft by
-                                    Hay</span>
-                                <span class="product__description__variant order-summary__small-text pl-3">Black
-                                    Aluminium / Group 1</span>
-                            </th>
-                            <td class="product__quantity">
-                                <span class="visually-hidden">
-                                    3
-                                </span>
-                            </td>
-                            <td class="product__price">
-                                <span class="order-summary__emphasis skeleton-while-loading">£1,917.00</span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="cart-info__product-subtotal d-flex justify-content-between border-start">
+    <section class="cart">
+        <div class="cart-content px-4 py-4">
+                <div class="d-flex">
+                    <div>
+                        <img class="product-thumbnail__image" src="../images/inicio/producto/redmi-note-9.png"
+                            alt="redmi-note-9">
+                        <div class="description-content__quantity-selector bg-dark">
+                            <div id="aumentar" class="btn btn-secundary ">+</div>
+                            <input id="cantidad" class="w-25 d-inline-block description-content__options" type="number" value="42" id="example-number-input">
+                            <div id="disminuir" class="btn btn-secundary">-</div>
+                        </div>
+                    </div>
+                    <div class="pl-4" scope="row">
+                        <span class="d-block">Redmi 9</span>
+                        <span class="d-block">£1,917.00</span>
+                        <span class="d-block">Disponible(3)</span>
+
+                    </div>
+                </div>
+                <div class="cart-info__product-subtotal d-flex justify-content-between border-top mt-4 pt-4">
                     <p class="h4">Total</p>
                     <p class="h4">30000$</p>
                 </div>
-            </div>
 
+                <div>
+                    <a href="#" class="btn btn-secundary  btn-block waves">Procesar pago</a>
+                </div>
         </div>
-
-
     </section>
 
 
@@ -121,7 +70,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-    <script src="../js/j2.js"></script>
+    <script src="../js/j1.js"></script>
+    <script src="../js/j3.js"></script>
 </body>
 
 </html>

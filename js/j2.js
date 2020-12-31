@@ -59,3 +59,5 @@ $(document).on("click", ".tab-list li a", function () {
         .addClass('waves-animate');
     }
 })();
+
+

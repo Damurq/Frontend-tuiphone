@@ -17,6 +17,7 @@ $(document).on("click", ".tab-list li a", function () {
 
 /*Animacion de ondas*/
 (function(){
+    console.log("activo")
   var waves_ripple, d, x, y;
   $('.waves').on('click', wavesRipple);
   function wavesRipple(e){
@@ -46,3 +47,14 @@ $(document).on("click", ".tab-list li a", function () {
       .addClass('waves-animate');
   }
 })();
+
+
+
+
+const inputCantidad = document.querySelector('#cantidad');
+document.querySelector('#aumentar').addEventListener('click',()=>{
+    inputCantidad.value=parseInt(inputCantidad.value)+1;
+});
+document.querySelector('#disminuir').addEventListener('click',()=>{
+    inputCantidad.value=parseInt(inputCantidad.value)-1;
+});

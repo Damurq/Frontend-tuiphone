@@ -103,7 +103,7 @@
     font-weight: bold;
 }
 .products .flex-container .flex-item{
-    max-width: 395px;
+    max-width: 350px;
     max-height: 630px;
 }
 /*Productos-card*/
@@ -146,11 +146,18 @@
 }
 .tab-item.in {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 /*SEARCH FILTER*/
 .Search .search-navbar-filter .tab-items .tab-item {
     color:  rgb(227, 234, 252)!important;
+    width:100%;
+}
+.search-navbar-filter .tab-list{
+    min-width:100%;
+}
+.search-navbar-filter .tab-items{
     min-width:100%;
 }
 /*======================================================*/
@@ -336,6 +343,22 @@ section{
 .form-control:focus {
     background-color:#343a40;
 }
+@media (min-width: 800px) {
+    .buy-content .cart-info .container-fluid{
+        display: none;
+    }
+    .buy-content .cart-info .collapse{
+        display: flex;
+        min-width: 500px;
+    }
+    .buy-content{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .content-list-main .general-form-container__form {
+        max-width: 80%;
+    }
+}
 /*======================================================*/
 /*======================================================*/
 /*======================================================*/
@@ -350,4 +373,56 @@ section{
 .social-medias-icons img{
     max-width: 10vh;
     object-fit: cover;
+}
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+/*contact*/
+@media (min-width:768px)
+{
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width:800px)
+{
+    .general-form-container{
+        display: flex;
+        justify-content: center;
+    }
+    .general-form-container__form{
+        max-width: 50%;
+    }
+    .login-options{
+        max-width: 770px;
+        margin: auto;
+    }
+}
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+/*contador de productos*/
+.description-content__quantity-selector{
+    max-width: 130px;
+}
+.description-content__quantity-selector input{
+    min-width: 48px;
+}
+
+/*======================================================*/
+/*======================================================*/
+/*======================================================*/
+/*cart*/
+.cart-content{
+    max-width: 94%;
+}
+@media (min-width:800px)
+{
+    .cart-content {
+        max-width: 725px;
+        margin: auto;
+    }
 }
